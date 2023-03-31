@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+
+.ikran1{
+  background-image: url('../images/nachikran.png');
+  height: 1008px;
+  background-repeat: no-repeat;
+}
+
+.oblakorooz {
+  position: absolute;
+  left: 33%;
+  right: 34%;
+  top: 41%;
+bottom: 27%;
+z-index: 2;
+}
+
+.kotsme {
+  position: absolute;
+  left: 37%;
+  right: 36%;
+  top: 20%;
+bottom: 52%;
+z-index: 1;
+}
+
+.oblakobel {
+  position: absolute;
+  left: 80%;
+  right: 14%;
+  top: 83%;
+bottom: 11%;
+}
+
+@keyframes chernzvezda {
+  form {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.chernzvezda{
+  position: absolute;
+  left: 80%;
+  right: 0%;
+  top: 0%;
+bottom: 60%;
+z-index: 1;
+transform-origin: 90px 100px;
+animation: 4s chernzvezda infinite;
+
+}
+ 
+@keyframes glazchernz {
+  form {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.glazchernzv{
+  position: absolute;
+  left: 85%;
+  right: 6%;
+  top: 12%;
+bottom: 73%;
+z-index: 2;
+transform-origin: 70px 5px;
+animation: 4s chernzvezda infinite
+}
+
+.lunazelen{
+  position: absolute;
+  left: -2%;
+  right: 85%;
+  top: -6%;
+bottom: 75%;
+z-index: 1;
+}
+
+.oranshzv{
+  position: absolute;
+  left: 15%;
+  right: 74%;
+  top: 3%;
+bottom: 85%;
+z-index: 2;
+}
+
+.belofiolzv{
+  position: absolute;
+  left: 6%;
+  right: 85%;
+  top: 10%;
+bottom: 75%;
+z-index: 3;
+transform: scale(.85);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes belofiolzv{
+  from {
+    transform: scale(.85);
+  }
+  50% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(.85);
+  }
+}
+
+
+
+.privetstv {
+  font-family: Inter;
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+position: absolute;
+left: 35%;
+right: 35%;
+  top: 85%;
+bottom: 7%;
+z-index: 5;
+color: white;
+}
+
+.text{
+  font-family: Inter;
+  font-style: normal;
+  font-weight:bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  position: absolute;
+  left: 42%;
+  right: 42%;
+    top: 55%;
+  bottom: 36%;
+  z-index: 5;
+  color: white;
+}
+
+
+.onosamoe{
+  display: block;
+}
+
+.netosamoe{
+  display: none;
+}
+
+
+.ikran1{
+  display: block;
+}
+
+.ikran2{
+  display: none;
+}
